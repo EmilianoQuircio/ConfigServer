@@ -7,10 +7,10 @@ spring:
     activate:
       on-profile: git
   application:
-    name: config-server-git
+    name: ConfigServer
   cloud:
     config:
       server:
         git:
-          uri: file:///C:\git-config-repository #file:///home/nicola/Documents/git-config-repository
+          uri: file:///C:\Users\Emiliano Quircio\Documents\GitHub\git-config-repository
           default-label: master #C:\Users\Emiliano Quircio\Documents\GitHub

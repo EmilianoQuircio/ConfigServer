@@ -1,17 +1,21 @@
 # ------------------------------------------
 # - Config Server
-# - PROFILO GIT
+# - PROFILO GITHUB
 # ------------------------------------------
 spring:
   config:
     activate:
       on-profile: github
   application:
-    name: config-server-github
+    name: ConfigServer
   cloud:
     config:
+      #profile: test
       server:
+      #  bootstrap: true
         git:
-          uri: file:///C:\git-config-repository #file:///home/nicola/Documents/git-config-repository
+          uri: https://github.com/EmilianoQuircio/articoli-config.git
           clone-on-start: true
+          #username:
+          #password:
           default-label: master
