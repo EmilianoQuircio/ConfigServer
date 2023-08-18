@@ -1,0 +1,17 @@
+# ------------------------------------------
+# - Config Server
+# - PROFILO GIT
+# ------------------------------------------
+spring:
+  config:
+    activate:
+      on-profile: github
+  application:
+    name: config-server-github
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///C:\git-config-repository #file:///home/nicola/Documents/git-config-repository
+          clone-on-start: true
+          default-label: master

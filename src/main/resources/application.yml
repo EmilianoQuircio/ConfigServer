@@ -1,0 +1,21 @@
+# ------------------------------------------
+#     App
+# ------------------------------------------
+#app:
+#  name: ConfigServer
+#  powered: Emiliano Quircio
+#  date: xx/xx/2022
+
+server:
+  port: 8888
+
+spring:
+  application:
+    name: ConfigServer
+  config:
+    use-legacy-processing: false
+# ------------------------------------------
+#     Profilo
+# ------------------------------------------
+#  profiles:
+#    active: git
