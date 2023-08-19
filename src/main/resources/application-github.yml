@@ -7,19 +7,19 @@ spring:
     activate:
       on-profile: github
 
-
+# ------------------------------------------
   application:
     name: ConfigServer
 
+# ------------------------------------------
   cloud:
     config:
-      #uri: http://localhost:8888
-      #profile: test
       server:
-      #  bootstrap: true
         git:
           uri: https://github.com/EmilianoQuircio/articoli-config.git
-          clone-on-start: true
-          #username:
-          #password:
-          default-label: master
+          username: EmilianoQuircio
+          # Token di github
+          password: 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
+          timeout: 5
+          cloneOnStart: true
+          #default-label: master

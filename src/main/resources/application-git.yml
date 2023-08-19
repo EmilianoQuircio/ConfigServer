@@ -13,4 +13,3 @@ spring:
       server:
         git:
           uri: file:///C:\Users\Emiliano Quircio\Documents\GitHub\git-config-repository
-          default-label: master #C:\Users\Emiliano Quircio\Documents\GitHub

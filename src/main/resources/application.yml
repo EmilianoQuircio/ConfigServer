@@ -16,7 +16,7 @@ spring:
 # ------------------------------------------
 #     Profilo
 # ------------------------------------------
-#  profiles:
-#   active: github
+  profiles:
+    active: github
 
 
