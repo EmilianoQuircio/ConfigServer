@@ -9,7 +9,7 @@ spring:
 
 # ------------------------------------------
   application:
-    name: CONFIG-SERVER
+    name: ConfigServer
 
 # ------------------------------------------
   cloud:
@@ -19,7 +19,7 @@ spring:
           uri: https://github.com/EmilianoQuircio/articoli-config.git
           username: EmilianoQuircio
           # Token di github
-          password: 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
+          password: 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
           timeout: 5
-          clone-on-start: true
-          default-label: main
+          cloneOnStart: true
+          #default-label: master

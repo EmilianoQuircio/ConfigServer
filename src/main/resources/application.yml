@@ -1,20 +1,10 @@
 # ------------------------------------------
 #     App
 # ------------------------------------------
-app:
-  name: ConfigServer
-  powered: Emiliano Quircio
-  date: xx/xx/2022
-
-# ------------------------------------------
-#     Edit Configuration -> Program Argument
-#           ${admpsw} ${uspsw}
-#         admpsw=admin;uspsw=user
-# ------------------------------------------
-sicurezza:
-  adminpwd: ${admpsw}
-  userpwd: ${uspsw}
-
+#app:
+#  name: ConfigServer
+#  powered: Emiliano Quircio
+#  date: xx/xx/2022
 
 server:
   port: 8888
@@ -29,10 +19,4 @@ spring:
   profiles:
     active: github
 
-# ------------------------------------------
-#      LOGGING settings
-# DEBUG - INFO - WARN - ERR
-# ------------------------------------------
-logging:
-  level:
-    root: WARN
+
