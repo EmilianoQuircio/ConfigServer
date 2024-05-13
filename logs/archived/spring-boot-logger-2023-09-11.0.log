@@ -1,0 +1,8 @@
+2023-09-11 16:29:20,083 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application using Java 19 on DESKTOP-SLCHRS1 with PID 11244 (C:\Users\Emiliano Quircio\Documents\GitHub\ConfigServer\target\classes started by Emiliano Quircio in C:\Users\Emiliano Quircio\Documents\GitHub\ConfigServer)
+2023-09-11 16:29:20,094 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.14, Spring v5.3.29
+2023-09-11 16:29:20,095 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "github"
+2023-09-11 16:29:44,761 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 26.231 seconds (JVM running for 28.418)
+2023-09-11 16:29:45,915 INFO com.api.configserver.ApplicationRunner [main] Start CommandLineRunner...
+2023-09-11 16:29:45,916 INFO com.api.configserver.ApplicationRunner [main] Powered by Emiliano Quircio in xx/xx/2022!
+2023-09-11 16:29:45,921 INFO com.api.configserver.ApplicationRunner [main] ...fine!
+2023-09-11 16:43:58,721 WARN org.springframework.cloud.config.server.support.AbstractScmAccessor$1 [Thread-2] Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\EMILIA~1\AppData\Local\Temp\config-repo-12282482484111758195\.git\objects\pack\pack-574b0b55e376ec4c46720ea9b2b34192237572f0.idx
