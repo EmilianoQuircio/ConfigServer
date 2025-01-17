@@ -19,7 +19,7 @@ spring:
           uri: https://github.com/EmilianoQuircio/articoli-config.git
           username: EmilianoQuircio
           # Token di github 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
-          password: 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
+          password: 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
           timeout: 5
           clone-on-start: true
           default-label: main

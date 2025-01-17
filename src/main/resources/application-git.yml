@@ -12,4 +12,6 @@ spring:
     config:
       server:
         git:
-          uri: file:///C:\Users\EmilianoQuircio\Documents\GitHub\git-config-repository
+          uri: file:///C:\Users\Emiliano Quircio\OneDrive\Documenti\GitHub\articoli-config
+          #    C:\Users\EmilianoQuircio\Documents\GitHub\git-config-repository
+          #    C:\Users\Emiliano Quircio\OneDrive\Documenti\GitHub\articoli-config

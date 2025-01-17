@@ -29,6 +29,8 @@ spring:
   profiles:
     active: github
 
+  banner:
+    image: location:classpath:banner.txt
 # ------------------------------------------
 #      LOGGING settings
 # DEBUG - INFO - WARN - ERR

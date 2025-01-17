@@ -19,7 +19,8 @@ public class ApplicationRunner implements CommandLineRunner {
 
         log.info("Start CommandLineRunner...");
         log.info("Powered by {} in {}!", appConfig.getPowered(), appConfig.getDate());
-        log.info("...fine!");
+        log.info("...");
+        log.info("Ora puoi avviare JWTokenArticoliShop2.0!");
     }
 
 }
